@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+:root {
+    --main-dark: #272727;
+    --main-light: #ffffff;
+    --helper-grey: #efefef;
+    --helper-dark: #040301;
+}
+
+.general {
+    color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    letter-spacing: -1px;
+    background-color: var(--helper-dark);
+}
+
+
+.article__image {
+    width: -webkit-fill-available;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 12px;
+    }
+    
+    .d-flex {
+      border: 1px solid black;
+      text-align: center;
+      box-shadow: 5px 10px #888888;
+      background-color: khaki;
+    }
+    
+    .d-flex:nth-child(odd) {
+      background-color: lightgreen;
+    }
+    
+    .article__name {
+      font-size: 20px;
+    }
